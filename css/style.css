@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background: linear-gradient(
+        90deg,
+        rgb(99, 241, 241) 0%,
+        #4b8ebb 23%,
+        #d53cd1 100%
+    );
+    padding: 100px 0;
+}
+
+.formulario {
+    height: 390px;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(245, 245, 245);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+    background-color: #ddd;
+    padding: 8px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.titulo .criar-conta {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.dados {
+    padding: 8px;
+}
+
+.dados .titulo-informacao {
+    padding-bottom: 5px;
+}
+
+.dados .input-informacao {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30px;
+    width: 95%;
+    padding: 10px
+}
+
+.btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn .btn-enviar {
+    background-color: #d53cd1;
+    color: #fff;
+    padding: 10px 90px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 500ms;
+}
+
+.btn-enviar:hover{
+    transform: scale(1.1);
+}
+
